@@ -55,12 +55,6 @@ const questions = [
         name: 'credits',
         message: 'What credits and/or acknowledgements need to be added?',
     },
-    {
-        type: 'input',
-        name: 'questions',
-        message: 'What questions would you like to add?',
-    },
-];
 
 // Function to write README file
 function writeToFile(fileName, data) {

@@ -42,7 +42,11 @@ ${data.tests}
 ${data.credits}
 
 ## Questions
-${data.questions}
+Please contact me with any additional questions.
+
+# Github: ${data.username} (https://github.com/${data.username})
+
+# Email: ${data.email}
 `;
 }
 

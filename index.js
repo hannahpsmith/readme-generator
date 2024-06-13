@@ -36,9 +36,11 @@ const questions = [
         message: 'What does the user need to know to use this project?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'What license is needed for your project?',
+        //add license options
+        choices: ['list them here', '1', '2'],
     },
     {
         type: 'input',
@@ -55,7 +57,7 @@ const questions = [
         name: 'credits',
         message: 'What credits and/or acknowledgements need to be added?',
     },
-
+]
 // Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile('generatedREADME.md', data, (err) => {

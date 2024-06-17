@@ -8,7 +8,7 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        message: 'What is your Github username?',
+        message: 'What is your GitHub username?',
     },
     {
         type: 'input',
@@ -18,39 +18,39 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: "What is your project's name?"
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description of your project?',
-    },
-    {
-        type: 'input',
-        name: 'installation',
-        message: 'What are the instructions for installation?',
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'What does the user need to know to use this project?',
+        message: 'Please write a short description of your project',
+        
     },
     {
         type: 'list',
         name: 'license',
-        message: 'What license is needed for your project?',
-        //add license options
-        choices: ['list them here', '1', '2'],
+        message: 'What kind of license should your project have?',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'What does the user need to know about contributing to this project?',
+        name: 'installation',
+        message: 'What command should be run to install dependencies?',
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'What instructions are needed to run tests?',
+        message: 'What command should be run to run tests?',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What does the user need to know about using the repo?',
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'What does the user need to know about contributing to the repo?',
     },
     {
         type: 'input',

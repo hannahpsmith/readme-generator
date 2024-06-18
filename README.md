@@ -14,7 +14,7 @@ This application creates a detailed and professional README file for any project
 * [Questions](#questions)
 
 ## Installation
-Install node, run node index.js in repository folder.
+Install node, run npm i, run command node index.js in repository folder.
 
 ## Usage
 To use this project, first verify that node has been installed. Clone or fork the repo. Locate the repository folder and run npm i. Then run the command node index.js. Complete the questions. If any questions are not applicable, enter N/A. Once complete, the README file will generate and format your answers for you. The file will be saved as generatedREADME.md in the repository. Any edits can be made in this file if desired. 

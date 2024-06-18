@@ -54,7 +54,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     return ``
   } else {
-    return `This project is licensed under the ${license} license.`
+    return `This project is licensed under the ${license} license. Please feel free to read the license in full detail [here](${renderLicenseLink(license)})`
   }
 }
 

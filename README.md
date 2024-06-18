@@ -19,6 +19,8 @@ Install node, run npm i, run command node index.js in repository folder.
 ## Usage
 To use this project, first verify that node has been installed. Clone or fork the repo. Locate the repository folder and run npm i. Then run the command node index.js. Complete the questions. If any questions are not applicable, enter N/A. Once complete, the README file will generate and format your answers for you. The file will be saved as generatedREADME.md in the repository. Any edits can be made in this file if desired. 
 
+[Click here to view a walkthrough video demonstrating the functionality of the application](https://drive.google.com/file/d/1S5gsDMaYx6S_qN9KS42yT4rwKgk8b3sv/view)
+
 ![This Image includes an example project, with sections for the title, description, table of contents, installation instructions, usage, license, contributing, tests, credits, and questions.](./images/Example.png)
 
 ## License
